@@ -17,3 +17,6 @@ class CrawlerFun(object):
         url = self._url
         html = requests.get(url)
         return html.text
+
+    def test(self):
+        print ("312")
